@@ -6,9 +6,9 @@
    
    function myfunc(){
     $text = 'hello';
-       echo $text." Bangladesh ".$text;
+       echo $text." <h1>Bangladesh <h1>".$text;
    }
-  // myfunc();
+   myfunc();
 
 ?>
 
