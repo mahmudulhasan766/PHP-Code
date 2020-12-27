@@ -1,5 +1,7 @@
 <?php
-$name = $_GET['username'];
-$email = $_GET['email'];
-echo "Welcome $name . your $email ";
+$name = $_POST['username'];
+$email = $_POST['email'];
+$gender = $_POST['gender'];
+echo "Welcome $name . your $email <br>";
+echo "GEnder is : $gender";
 ?>
