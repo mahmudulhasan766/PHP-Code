@@ -7,6 +7,7 @@
     $t2 = 56;
     $t3 = $t1 + $t2;
     $txt = "PHP";
+    echo "'hasan $txt'<br>";
     //...........
     $color = "red";
     echo "My car is " . $color . "<br>";
@@ -16,7 +17,13 @@
     //...........
      $x = 5 /* + 15 */ + 25;
      echo $x."<br>";
-     echo "Bangladesh"
+     echo "Bangladesh";
+     echo "<br>";
+
+     var_dump ($t2);
+     echo "<br>";
+     $bol = true;
+     var_dump ($bol);
 ?>
 
 </body>
