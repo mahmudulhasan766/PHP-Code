@@ -14,8 +14,8 @@
     echo "I love $txt!<br>";
     echo "sum : $t3 <br>";
     //...........
-     $x = 5+5;
-     echo $x ."<br>";
+     $x = 5 /* + 15 */ + 25;
+     echo $x."<br>";
      echo "Bangladesh"
 ?>
 
