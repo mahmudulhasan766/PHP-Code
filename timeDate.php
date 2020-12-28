@@ -1,8 +1,8 @@
 <?php
 session_start();
-if(!isset($_SESSION['login'])){
-    header("Location : index.php");
-}
+
+if(!isset($_SESSION['login'])) 
+    header('location:hello.php'); 
 
 
 date_default_timezone_set("Asia/Dhaka");

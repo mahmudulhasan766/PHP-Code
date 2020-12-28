@@ -18,7 +18,7 @@ $dristic =input( $_POST['dristic']);
     echo "<br>";
 
     //session.....
-    echo "<br>";
-    session_start();
-    echo $_SESSION['var'] ;
+    // echo "<br>";
+    // session_start();
+    // echo $_SESSION['var'] ;
 ?>

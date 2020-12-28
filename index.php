@@ -31,6 +31,8 @@
     <label for="female">Female</label>
     <input type="radio" id="other" name="gender" value="other">
     <label for="other">Other</label><br/><br/>
+
+    
     <input type = "submit" value = "Submit">
 
 
@@ -53,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
 require 'timeDate.php';
 include('timeDate.php');
 
-session......
+//session......
  echo "<br>";
  session_start();
 // echo $_SESSION['var'] ;
