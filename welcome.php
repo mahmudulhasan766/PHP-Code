@@ -16,4 +16,9 @@ $dristic =input( $_POST['dristic']);
     echo "Dristic : $dristic <br>";
     echo "Gender is : $gender";
     echo "<br>";
+
+    //session.....
+    echo "<br>";
+    session_start();
+    echo $_SESSION['var'] ;
 ?>

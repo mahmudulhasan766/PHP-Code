@@ -50,4 +50,13 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
     echo "Gender is : $gender";
     echo "<br>";
 }
+require 'timeDate.php';
+include('timeDate.php');
+
+//session......
+echo "<br>";
+session_start();
+echo $_SESSION['login'] ;
+
+
 ?>
