@@ -1,7 +1,5 @@
 <?php
 session_start();
-$_SESSION['login'] = "Wellcome";
+$_SESSION['login'] = true;
  echo "login";
-
-
 ?>

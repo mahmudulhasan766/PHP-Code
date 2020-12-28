@@ -54,9 +54,15 @@ require 'timeDate.php';
 include('timeDate.php');
 
 //session......
-echo "<br>";
-session_start();
-echo $_SESSION['login'] ;
+ echo "<br>";
+ session_start();
+// echo $_SESSION['var'] ;
 
+if (isset($_SESSION['login']))
+{
+    echo "<h1>Login Seccess full<h1>";
+}else{
+    echo "<h1>Plz login<h1>";
+}
 
 ?>
