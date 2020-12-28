@@ -53,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST'){
 require 'timeDate.php';
 include('timeDate.php');
 
-//session......
+session......
  echo "<br>";
  session_start();
 // echo $_SESSION['var'] ;
